@@ -28,6 +28,11 @@ body {
   text-align: center;
 }
 
+#usersOnline {
+  background: #e0f7fa;
+  padding: 5px;
+}
+
 .messages {
   flex: 1;
   padding: 10px;
@@ -48,7 +53,7 @@ body {
   background: #f0f0f0;
 }
 
-.send input {
+.send input[type="text"] {
   flex: 1;
   padding: 8px;
 }
